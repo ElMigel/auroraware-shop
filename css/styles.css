@@ -313,6 +313,29 @@ select option{
     background: rgba(10, 18, 35, 0.95);
     color: #f8fafc;
 }
+.note{
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin: 10px 0 0;
+}
+
+.note .info-icon{
+    color: var(--muted);
+    line-height: 1;
+    margin-top: 2px;
+    flex: 0 0 auto;
+}
+
+.note .info-icon svg{
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.note small{
+    margin: 0;
+}
 tr:last-child td{ border-bottom: none; }
 
 small{ color: var(--muted); }
