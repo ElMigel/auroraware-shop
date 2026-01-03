@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Kontakt</title>
+    <meta name="description" content="Kontaktmöglichkeiten und Support von AuroraWare.">
+    <link rel="stylesheet" href="./css/styles.css?v=2">
+</head>
+<body>
+<a class="skip-link" href="#content">Zum Inhalt springen</a>
+
+<header>
+    <div class="container brandbar">
+        <a class="brand" href="index.html">
+            <img src="assets/auroraware-logo.svg" alt="AuroraWare Logo">
+            <span><strong>AuroraWare</strong><span>Software für klare Workflows</span></span>
+        </a>
+
+        <nav aria-label="Hauptnavigation">
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">Über AuroraWare</a></li>
+                <li><a href="contact.html" aria-current="page">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="content" class="container">
+    <h1>Kontakt</h1>
+
+    <section class="grid" aria-label="Kontaktwege">
+        <article class="card">
+            <h2>Support</h2>
+            <p>
+                Unser Support hilft bei Fragen zu Installation, Zugriff und Nutzung.
+                Wenn du ein Problem meldest, nenne bitte deine E-Mail Adresse und eine kurze Beschreibung.
+            </p>
+            <ul>
+                <li>E-Mail <a href="mailto:support@auroraware.example">support@auroraware.example</a></li>
+                <li>Telefon <a href="tel:+4315550100">+43 1 555 01 00</a></li>
+                <li>Erreichbar Montag bis Freitag von 9 bis 17 Uhr</li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <h2>Datenschutz</h2>
+            <p>
+                Wenn du Auskunft möchtest oder Rechte nach Datenschutzrecht wahrnehmen willst, schreibe bitte an diese Adresse.
+                Wir antworten in der Regel innerhalb weniger Werktage.
+            </p>
+            <ul>
+                <li>E-Mail <a href="mailto:privacy@auroraware.example">privacy@auroraware.example</a></li>
+                <li>Weitere Infos findest du in der <a href="privacy.html">Datenschutzerklärung</a></li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <h2>Barrierefreiheit</h2>
+            <p>
+                Wenn du bei der Nutzung Barrieren bemerkst, freuen wir uns über Feedback.
+                Bitte nenne die Seite und beschreibe kurz, was nicht funktioniert.
+            </p>
+            <ul>
+                <li>E-Mail <a href="mailto:accessibility@auroraware.example">accessibility@auroraware.example</a></li>
+                <li>Erklärung auf <a href="accessibility.html">Barrierefreiheitserklärung</a></li>
+            </ul>
+        </article>
+    </section>
+
+    <section class="card" aria-label="Kontaktformular">
+        <h2>Nachricht senden</h2>
+
+        <form class="form" action="#" method="post">
+            <div class="inline">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required placeholder="Lukas Berger">
+                </div>
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required placeholder="lukas.berger@agentur.at">
+                </div>
+            </div>
+
+            <div class="inline">
+                <div>
+                    <label for="topic">Thema</label>
+                    <select id="topic" name="topic" required>
+                        <option value="">Bitte auswählen</option>
+                        <option value="sales">Fragen zu Preisen und Plänen</option>
+                        <option value="support">Technischer Support</option>
+                        <option value="privacy">Datenschutzanfrage</option>
+                        <option value="accessibility">Barrierefreiheit</option>
+                        <option value="other">Sonstiges</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="orderId">Bestellnummer</label>
+                    <input id="orderId" name="orderId" type="text" placeholder="AW2025 000184">
+                </div>
+            </div>
+
+            <div>
+                <label for="message">Nachricht</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Schreibe uns kurz, worum es geht"></textarea>
+            </div>
+
+            <fieldset>
+                <legend>Bestätigung</legend>
+                <label>
+                    <input type="checkbox" name="privacyAck" required>
+                    Ich habe die <a href="privacy.html">Datenschutzerklärung</a> gelesen
+                </label>
+            </fieldset>
+
+            <button class="button primary" type="submit">Nachricht senden</button>
+            <p><small>Dieses Formular überträgt in dieser Website keine Daten an einen Server. Für schnelle Hilfe kannst du auch direkt eine E-Mail senden.</small></p>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <nav aria-label="Footer Navigation">
+            <ul>
+                <li><a href="imprint.html">Impressum</a></li>
+                <li><a href="privacy.html">Datenschutzerklärung</a></li>
+                <li><a href="accessibility.html">Barrierefreiheitserklärung</a></li>
+                <li><a href="media.html">Urheberrecht und Medien</a></li>
+                <li><a href="licenses.html">Lizenzbedingungen</a></li>
+            </ul>
+        </nav>
+        <p><small>© 2025 AuroraWare GmbH</small></p>
+    </div>
+</footer>
+</body>
+</html>

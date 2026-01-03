@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220" role="img"
+     aria-label="Wiederholtes Muster aus Punkten und Wellenlinien in zwei Farben">
+    <rect width="800" height="220" fill="#0f1a2e"/>
+    <g fill="none" stroke="#7dd3fc" stroke-width="4" opacity="0.8">
+        <path d="M0 60 C80 20, 160 100, 240 60 S400 100, 480 60 S640 20, 800 60"/>
+        <path d="M0 140 C80 100, 160 180, 240 140 S400 180, 480 140 S640 100, 800 140"/>
+    </g>
+    <g fill="#34d399" opacity="0.85">
+        <circle cx="80" cy="40" r="6"/><circle cx="160" cy="110" r="6"/><circle cx="240" cy="40" r="6"/>
+        <circle cx="320" cy="110" r="6"/><circle cx="400" cy="40" r="6"/><circle cx="480" cy="110" r="6"/>
+        <circle cx="560" cy="40" r="6"/><circle cx="640" cy="110" r="6"/><circle cx="720" cy="40" r="6"/>
+    </g>
+</svg>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Checkout AuroraFlow Team</title>
+    <meta name="description" content="Checkout für AuroraFlow Team.">
+    <link rel="stylesheet" href="./css/styles.css?v=2">
+</head>
+<body>
+<a class="skip-link" href="#content">Zum Inhalt springen</a>
+
+<header>
+    <div class="container brandbar">
+        <a class="brand" href="index.html">
+            <img src="assets/auroraware-logo.svg" alt="AuroraWare Logo">
+            <span><strong>AuroraWare</strong><span>Software für klare Workflows</span></span>
+        </a>
+        <nav aria-label="Hauptnavigation">
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">Über AuroraWare</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="content" class="container">
+    <h1>Checkout</h1>
+    <p><span class="badge">AuroraFlow Team</span> <strong>6,90 €</strong> pro Nutzer und Monat</p>
+
+    <section class="card" aria-label="Bestellübersicht">
+        <h2>Bestellübersicht</h2>
+        <p>
+            Du bestellst AuroraFlow Team.
+            Der Preis richtet sich nach der Anzahl der Nutzer.
+            Du kannst die Nutzer später jederzeit anpassen.
+        </p>
+        <ul>
+            <li>Plan AuroraFlow Team</li>
+            <li>Preis 6,90 € pro Nutzer und Monat</li>
+            <li>Nutzerverwaltung und Teamstruktur</li>
+            <li>Berechtigungen pro Projekt und Bereich</li>
+            <li>Audit Hinweise für wichtige Änderungen</li>
+        </ul>
+    </section>
+
+    <section class="card" aria-label="Nutzeranzahl">
+        <h2>Nutzeranzahl</h2>
+        <p>
+            In einem echten Shop würdest du hier die Anzahl auswählen und der Gesamtpreis würde automatisch berechnet.
+            Für diese Website bleibt es bei einer Beispielangabe.
+        </p>
+        <p><strong>Ausgewählt</strong> 5 Nutzer</p>
+    </section>
+
+    <section class="card" aria-label="Rechnungsdaten">
+        <h2>Rechnungsdaten</h2>
+
+        <form class="form" action="#" method="post">
+            <div class="inline">
+                <div>
+                    <label for="fullName">Name</label>
+                    <input id="fullName" name="fullName" type="text" autocomplete="name" required placeholder="Sabine Hofer">
+                </div>
+                <div>
+                    <label for="email">E Mail</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required placeholder="sabine.hofer@unternehmen.at">
+                </div>
+            </div>
+
+            <div class="inline">
+                <div>
+                    <label for="company">Unternehmen</label>
+                    <input id="company" name="company" type="text" autocomplete="organization" placeholder="Hofer Projekt GmbH">
+                </div>
+                <div>
+                    <label for="vat">UID Nummer</label>
+                    <input id="vat" name="vat" type="text" placeholder="ATU34567890">
+                </div>
+            </div>
+
+            <div class="inline">
+                <div>
+                    <label for="street">Adresse</label>
+                    <input id="street" name="street" type="text" autocomplete="street-address" required placeholder="Linzergasse 7">
+                </div>
+                <div>
+                    <label for="zip">Postleitzahl</label>
+                    <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" required placeholder="5020">
+                </div>
+                <div>
+                    <label for="city">Ort</label>
+                    <input id="city" name="city" type="text" autocomplete="address-level2" required placeholder="Salzburg">
+                </div>
+            </div>
+
+            <fieldset>
+                <legend>Zahlungsart</legend>
+                <div class="inline" role="group" aria-label="Zahlungsart auswählen">
+                    <label><input type="radio" name="pay" value="card" required> Kreditkarte</label>
+                    <label><input type="radio" name="pay" value="invoice" required> Rechnung</label>
+                    <label><input type="radio" name="pay" value="paypal" required> PayPal</label>
+                </div>
+                <p><small>In dieser Website wird keine echte Zahlung ausgelöst. Der Ablauf dient der Demonstration.</small></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Bestätigung</legend>
+                <label>
+                    <input type="checkbox" name="acceptLicense" required>
+                    Ich akzeptiere die <a href="licenses.html">Lizenzbedingungen</a>
+                </label>
+                <label>
+                    <input type="checkbox" name="acceptPrivacy" required>
+                    Ich habe die <a href="privacy.html">Datenschutzerklärung</a> gelesen
+                </label>
+            </fieldset>
+
+            <button class="button primary" type="submit">Kauf abschließen</button>
+            <p><small>Nach dem Absenden wird keine Bestellung an ein Backend übertragen.</small></p>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <nav aria-label="Footer Navigation">
+            <ul>
+                <li><a href="imprint.html">Impressum</a></li>
+                <li><a href="privacy.html">Datenschutzerklärung</a></li>
+                <li><a href="accessibility.html">Barrierefreiheitserklärung</a></li>
+                <li><a href="media.html">Urheberrecht und Medien</a></li>
+                <li><a href="licenses.html">Lizenzbedingungen</a></li>
+            </ul>
+        </nav>
+        <p><small>© 2025 AuroraWare GmbH</small></p>
+    </div>
+</footer>
+</body>
+</html>
